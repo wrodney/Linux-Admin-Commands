@@ -21,10 +21,10 @@ Lets install java and set the java home
 ```sh
 java -version
 find /usr/lib/jvm/java-1.8* | head -n 3
-#JAVA_HOME=
+JAVA_HOME=
 export JAVA_HOME
 PATH=$PATH:$JAVA_HOME
-# To set it permanently update your .bash_profile
+ To set it permanently update your .bash_profile
 source ~/.bash_profile
 ```
 _The output should be something like this,_
